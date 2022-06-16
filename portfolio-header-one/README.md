@@ -4,4 +4,4 @@ Design Title: portfolio-header-one
 Used language: `html`, `css`
 
 ## Demo:
-[<img src="desktop.png">]
+<img src="desktop.png" style="width: 60%">
