@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+:root {
+    --main-color: #141414;
+    --secondary-color: #334443;
+    --third-color: #34656D;
+    --light-color: #779290;
+    --white-color: #F2F2F2;
+}
+a {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+.header-area{
+    
+    background: var(--main-color);
+    color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-area h1 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 40px;
+    padding: 20px 0 20px 0;
+    color: var(--third-color);
+}
+.header-area h1 span{
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.main-nav{
+    margin-left: 280px;
+}
+.main-nav ul{
+    display: flex;
+    align-items: center;
+}
+.main-nav ul li {
+    list-style: none;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: var(--white-color);
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    transition: 0.4s ease;
+}
+.main-nav ul li a:hover{
+    color: var(--light-color);
+}
+
+.btn {
+    padding: 15px 35px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+.hire-me{
+    background-color: var(--third-color);
+    color: var(--white-color);
+}
+.hire-me:hover {
+    background: var(--light-color);
+}
+
+
+
+.hero-area {
+    height: 82vh;
+    padding-top: 40px;
+    background: var(--main-color);
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.portfolio-button {
+    background-color: var(--white-color);
+    margin-left: 20px;
+    color: var(--main-color);
+}
+.portfolio-button:hover {
+    background: var(--light-color);
+}
+
+
+.info-area h2 {
+    color: var(--third-color);
+    font-size: 36px;
+}
+.info-area h1 {
+    color: var(--white-color);
+    font-family: 'Amaranth', sans-serif;
+    font-size: 56px;
+    line-height: 90px;
+}
+.info-area h1 + h2 {
+    color: var(--light-color);
+    font-size: 32px;
+}
+
+.info-area p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40vw;
+    color: var(--white-color)
+}
+
+.hero-image img {
+    width: 30vw;
+}
